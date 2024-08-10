@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION - Gaming Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <img src="WhatsApp Image 2024-08-09 at 21.26.14_1b89a824.jpg" alt="VISION Logo" class="logo">
+        <h1>VISION</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-header" id="chatbot-header">
+            <h4>Chat with us!</h4>
+            <button id="chatbot-close" class="chatbot-close">X</button>
+        </div>
+        <div class="chatbot-body" id="chatbot-body">
+            <div class="chatbot-messages" id="chatbot-messages"></div>
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" class="chatbot-input" placeholder="Ask something...">
+                <button id="chatbot-send" class="chatbot-send">Send</button>
+            </div>
+        </div>
+        <button class="chatbot-icon" id="chatbot-icon">💬</button>
+    </div>
+    
+
+    <section id="home" class="section">
+        <h2>Welcome to VISION</h2>
+        <p>Your ultimate gaming hub for the latest offers and updates.</p>
+        <img src="maxresdefault.jpg" alt="Gaming Image" class="main-image">
+    </section>
+
+    <section id="subscribe" class="section">
+        <h2>Subscribe for Updates</h2>
+        <form id="subscribe-form" class="subscription-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p class="subscription-success" id="subscription-success"></p>
+    </section>
+
+    <section id="offers" class="section">
+        <h2>Latest Offers</h2>
+        <div class="offers-container">
+            <section id="latest-offer" class="section">
+                <h2>Latest Offer</h2>
+                <div class="latest-offer-content">
+                    <div class="offer-details">
+                        <h3>Get 67% Off On Fall Out 3!</h3>
+                        <p>This weekend only, enjoy a 67% discount on Fall Out 3. Hurry, offer ends soon!</p>
+                        <div class="countdown-timer" id="countdown-timer">
+                            <span id="days"></span> Days
+                            <span id="hours"></span> Hours
+                            <span id="minutes"></span> Minutes
+                            <span id="seconds"></span> Seconds
+                        </div>
+                        <a href="https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition" target="_blank" class="cta-button">Shop Now</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="exclusive-offers" class="section">
+            <h2>Exclusive Offers</h2>
+            <div class="offers-content">
+                <!-- Offer 1: 20% Off New Releases -->
+                <div class="offer-item">
+                    <div class="offer-card">
+                        <div class="offer-card-front">
+                            <h3>20% Off New Releases</h3>
+                            <p>Get an exclusive 20% discount on the latest games when you subscribe to VISION. Don’t miss out on the newest titles at a great price!</p>
+                        </div>
+                        <div class="offer-card-back">
+                            <h3>Special Deal</h3>
+                            <p>Limited time offer! Enjoy our exclusive deal and stay ahead in the gaming world.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer 2: Early Access to Betas -->
+                <div class="offer-item">
+                    <div class="offer-card">
+                        <div class="offer-card-front">
+                            <h3>Early Access to Betas</h3>
+                            <p>Be the first to play! Subscribe and gain early access to upcoming game betas and demos before they’re released to the public.</p>
+                        </div>
+                        <div class="offer-card-back">
+                            <h3>Priority Access</h3>
+                            <p>Get priority access to the latest games before anyone else. Secure your spot in the beta today!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer 3: Free In-Game Currency -->
+                <div class="offer-item">
+                    <div class="offer-card">
+                        <div class="offer-card-front">
+                            <h3>Free In-Game Currency</h3>
+                            <p>Receive free in-game currency for your favorite titles when you sign up. Use it to unlock exclusive items and upgrades!</p>
+                        </div>
+                        <div class="offer-card-back">
+                            <h3>Bonus Rewards</h3>
+                            <p>Exclusive for subscribers: Earn bonus rewards and in-game currency for every purchase you make through our platform.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="greeting" class="section">
+        <h2>Thank You for Visiting!</h2>
+        <p>Our website is newly launched, and we’re excited to have you here. Please stay with us as we continue to bring you the best offers and updates. Your patience and support mean the world to us!</p>
+        
+    </section>
+
+    <section id="about" class="section">
+        <h2>About VISION</h2>
+        <div class="about-content">
+            <p><strong>VISION</strong> is at the forefront of transforming the gaming experience. We are dedicated to keeping gamers informed and engaged with the latest updates, exclusive offers, and personalized notifications. Our platform is designed to ensure that you stay ahead in the gaming universe with timely information and tailored content. At VISION, we blend passion for gaming with cutting-edge technology to create a unique and enriching experience for gamers worldwide.</p>
+
+            <h3>Meet Our Team</h3>
+            <div class="team-profiles">
+                <div class="team-member">
+                    <div class="team-photo-container">
+                        <section id="about-us">
+                            <img src="WhatsApp Image 2024-08-10 at 17.43.28_3b02818a.jpg" alt="About Us" class="about-image">
+                          </section>
+                          
+                    </div>
+                    <div class="team-info">
+                        <h2>Shantanu </h2>
+                        <p><strong>CEO & Co-Founder</strong></p>
+                        <p>Shantanu brings extensive experience in technology and a deep passion for gaming. He leads VISION with a vision to innovate and enhance the gaming experience for players everywhere.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="WhatsApp Image 2024-08-10 at 18.34.53_026b8924.jpg" alt="About Us" class="about-image">
+                    <div class="team-info">
+                        <h2>Sourav</h2>
+                        <p><strong>CTO & Co-Founder</strong></p>
+                        <p>Sourav is the tech mastermind behind VISION. His expertise in technology and software development drives the platform's cutting-edge features and ensures top-notch performance.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="WhatsApp Image 2024-08-10 at 18.35.07_3dbbde96.jpg" alt="About Us" class="about-image">
+                    <div class="team-info">
+                        <h2>Soumya</h2>
+                        <p><strong>CFO & Co-Founder</strong></p>
+                        <p>Soumya oversees the financial health of VISION, ensuring that our operations are efficient and sustainable. His strategic financial management supports our mission to deliver the best gaming experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            <p class="form-success" id="form-success"></p>
+        </form>
+        <p>Get in touch with our team for support and inquiries.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VISION. All rights reserved.</p>
+        <h4>Powered by Sourav </h4>
+    </footer>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
